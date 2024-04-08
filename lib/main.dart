@@ -13,6 +13,7 @@ class _BMICalculatorState extends State<BMICalculator> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'BMI Calculator',
       theme: ThemeData(
         primaryColor: Colors.blue,
